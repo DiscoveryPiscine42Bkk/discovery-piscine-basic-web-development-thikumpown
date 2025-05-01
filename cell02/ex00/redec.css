@@ -1,0 +1,29 @@
+table,td{
+    border:1px solid black;
+    color: wheat;
+    background-color: #102E50;
+}ss
+
+table {
+  position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    font-size: 20px;
+}
+td:nth-child(odd) {
+    background-color: #E78B48;
+}  
+td:nth-child(even) {
+    background-color: #BE3D2A;
+}
+
